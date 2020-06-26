@@ -2,6 +2,8 @@
 
 This repo contains the code for fitting the IRT/IRTree models and replicating the graphs in my IMPS 2020 Spotlight talk "Psychometrics for Forensic Decision-Making"
 
+![title slide: Psychometrics for Forensic Decision-Making](figures/title-slide.png)
+
 + `fit-stan-models.R` contains the code used to format the data for Stan, fit the models, and save the output to RDS files
 + `analysis-and-graphs.R` contains the R code used to create the graphs, tables, etc. used in the presentation
 + Stan code for the Rasch and IRTree model can be found in the `stan-files` directory
